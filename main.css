@@ -1,6 +1,4 @@
-header {
-    height: 143px;
-}
+
 .navb li {
     display: inline;
     padding: 6.3px;
@@ -25,3 +23,7 @@ header {
     text-decoration: none;
     color: white;
 }
+ section {
+    margin: 0;
+    top: 0;
+ }
