@@ -1,3 +1,27 @@
-body {
-    background-color: black;
+header {
+    height: 143px;
+}
+.navb li {
+    display: inline;
+    padding: 6.3px;
+    margin: 5px;
+    color: white;
+    font-size: medium;
+    background-color: rgb(101, 176, 101);
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+    /* change color on nav linka*/
+
+.navb li:hover {
+    background-color: rgb(50, 96, 50);
+}
+
+/* code below used to removed underline below a links from nav bar*/
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+    color: white;
 }
