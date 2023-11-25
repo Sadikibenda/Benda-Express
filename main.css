@@ -27,3 +27,18 @@
     margin: 0;
     top: 0;
  }
+
+ /* code below are used to modified the captions in the courasel*/
+
+ .carousel-caption {
+    background-color: #00000080;
+    position: relative;
+    margin: 45px;
+    font-size: 30px;
+ }
+
+ .carousel-caption h5 {
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(101, 176, 101)
+ }
