@@ -88,6 +88,17 @@
     background-color: rgb(4, 4, 117);
   }
 
-    /* code below are used to modified the footer section */
+    /* code below are used to modified the footer section 
+*/
 
+.content > li {
+   display: inline;
+   padding: 40px;
+}
 
+#media li {
+   display: inline;
+   float: right;
+   position: relative;
+   bottom: 35px;
+}
