@@ -226,6 +226,12 @@
 		font-size: 21px;
 	}
 
+	.contact form input[type="date"]{
+		width: 100%;
+		height: 40px;
+		padding: 15px;
+		font-size: 15px;
+	}
 
 
 	.about .image{
