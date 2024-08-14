@@ -7,10 +7,11 @@
 		font-weight: bold;
 		padding: 2vw 0;
 		transition:0.3s; -webkit-transition:0.3s;
+		
 	}
 	header.fixed{
-		background: rgb(153, 155, 156);
-		padding: 0.7vw 0;
+		background: rgb(51, 52, 53);
+		padding: 0;
 	}
 	header a.logo{
 		float: left;
@@ -222,9 +223,10 @@
 		float: left;
 		width: 100%;
 		height: 100%;
-		padding: 0 0 2vw 0;
+		padding: 0;
 		text-align: center;
 		box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.445);
+		border-radius: 10px;
 
 	}
 	.servicesitemswrap .item .itemcontent .thumb{
@@ -239,12 +241,13 @@
 	.servicesitemswrap .item .itemcontent .thumb img{
 		float: left;
 		width: 100%;
-		height: 250px;
+		height: 200px;
 
 		aspect-ratio: 1/1;
 		object-fit: cover;
 		object-position: center;
 		transition:0.6s; -webkit-transition:0.6s;
+		border-radius: 10px 10px 0 0;
 	}
 	.servicesitemswrap .item .itemcontent .thumb:hover img{
 		transform: scale(1.1);
