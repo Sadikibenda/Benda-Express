@@ -90,6 +90,9 @@
 		font-family: 'Manrope', sans-serif;
 		position: relative;
 		z-index: 1;
+		background-image: url('images/Benda\ Express\ home\ photo.webp');
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 	.banner:before{
 		background: linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,0.4));

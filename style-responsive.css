@@ -204,6 +204,7 @@
 }
 
 
+/* Mobile Responsive */
 
 
 
@@ -218,6 +219,9 @@
 
 	.banner{
 		padding: 150px 0 80px 0;
+		background-image: url(images/Benda\ Express\ home\ photo\ Mobile.webp);
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 	.banner .text h1{
 		font-size:36px;
@@ -274,4 +278,5 @@
 	footer .social{
 		width: 100%;
 	}
+
 }
